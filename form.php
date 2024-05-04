@@ -1,6 +1,6 @@
 <?
 	if (isset($_POST) && $_POST != []) {
-		$to = 'slavikgolos@gmail.com';
+		$to = 'agni-0808@yandex.ru';
 		$subject = 'Новая заявка на сайте';
 		$message = "Имя: " . $_POST['name'] . "\n" .
 			"Почта: " . $_POST['email'] . "\n" .
